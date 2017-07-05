@@ -1,0 +1,117 @@
+/* Survey page styles */
+
+.photo{
+  width: 60%;
+  padding: 10px;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+form {
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  font-size: 1.5rem;
+  color: #ff6347;
+}
+
+input {
+  margin: 1em 0 0 1em;
+}
+
+#john {
+  margin-left: 0;
+}
+
+input[type="radio"] {
+  margin-right: 0;
+  margin-bottom: 2em;
+}
+
+select,
+textarea {
+  width: 100%;
+  padding: 1em;
+  border-radius: .5em;
+}
+
+textarea {
+  height: 7em;
+}
+
+input[name="textfield"] {
+  padding: .5em;
+  border-radius: .5em;
+  border: none;
+}
+
+input[name="textfield"]:focus,
+select:focus,
+textarea:focus {
+  transition: all .5s ease-in-out;
+  background: #68c3a3;
+}
+
+button {
+  width: 100%;
+  padding: 1em;
+  border: none;
+  border-radius: .5em;
+  color: #fff;
+  background: #ff6347;
+  transition: all .5s ease-in-out;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+button:hover {
+  background:  #fff;
+  color: #ff6347;
+}
+
+#favAlbum,
+#favSongTip,
+.aria-tip {
+  margin-bottom: 2em;
+  color: #ff6347;
+  font-size: .8em;
+}
+
+.aria-tip {
+  margin-bottom: 0;
+}
+
+#submitButton,
+#signUp {
+  color: #68c3a3;
+  font-size: .7em;
+  text-align: center;
+  padding-top: 1em;
+}
+
+.container{
+  text-align: center;
+}
+.newsletter{
+  text-align: right;
+
+}
+
+
+
+/* Styles for larger screens */
+@media screen and (min-width: 840px) {
+  .photo{
+    width: 40%;
+  }
+}
