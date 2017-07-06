@@ -24,9 +24,11 @@ a:hover {
 }
 
 .buy {
+  color: #000;
   background: #ff6347;
   border-radius: .25em;
   padding: 1em;
+  font-weight: bold;
   transition: all .4s ease-in-out;
 }
 
@@ -171,6 +173,8 @@ a.social {
   background-size: 32px 32px;
   opacity: .5;
   transition: all .5s;
+  line-height: 0px;
+  font-size: 0px;
 }
 
 a.twitter {

@@ -64,13 +64,13 @@ textarea:focus {
 
 button {
   width: 100%;
-  padding: 1em;
+  padding: .5em;
   border: none;
   border-radius: .5em;
-  color: #fff;
+  color: #000;
   background: #ff6347;
   transition: all .5s ease-in-out;
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: bold;
 }
 
@@ -85,6 +85,7 @@ button:hover {
   margin-bottom: 2em;
   color: #ff6347;
   font-size: .8em;
+  font-style: italic;
 }
 
 .aria-tip {
@@ -97,6 +98,7 @@ button:hover {
   font-size: .7em;
   text-align: center;
   padding-top: 1em;
+  font-style: italic;
 }
 
 .container{
